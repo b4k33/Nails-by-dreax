@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nails by Dreax</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.jpeg" alt="Nails by Dreax Logo" class="logo"/>
+    <h1>Nails by Dreax</h1>
+    <p class="tagline">Premium Nail Art & Designs – Rockland, NY</p>
+    <a href="#booking" class="btn">Book Now</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Dreax – a local nail artist offering premium, custom-designed nails with top-tier service. Whether you're looking for classy, bold, or creative looks, I bring your vision to life.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>Check out some of my recent work below!</p>
+    <!-- Replace with actual image and video URLs -->
+    <div class="media-grid">
+      <img src="nail1.jpg" alt="Nail Design 1">
+      <img src="nail2.jpg" alt="Nail Design 2">
+      <video controls>
+        <source src="nailvideo1.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book an Appointment</h2>
+    <p>Available daily from 9:00 AM – 11:00 PM</p>
+    <a href="#" class="btn">Book Now</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nails by Dreax</p>
+  </footer>
+
+  <!-- Optional chat widget can go here -->
+</body>
+</html>
